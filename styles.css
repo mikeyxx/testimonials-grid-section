@@ -1,0 +1,234 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  background: #ecf2f8;
+}
+
+p {
+  font-size: 13px;
+}
+
+h2 {
+  font-size: 1rem;
+  -webkit-padding-after: 0.7rem;
+          padding-block-end: 0.7rem;
+}
+
+figcaption {
+  font-size: 11.5px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.avatar {
+  border-radius: 2rem;
+}
+
+.container {
+  max-width: 375px;
+  margin: 2.8rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.container .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonial {
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-margin-after: 1.3rem;
+          margin-block-end: 1.3rem;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: .5rem;
+}
+
+.testimonial:last-of-type {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+.profile {
+  -webkit-padding-after: 0.7rem;
+          padding-block-end: 0.7rem;
+}
+
+.details {
+  -webkit-margin-start: 1rem;
+          margin-inline-start: 1rem;
+}
+
+span {
+  font-size: 11px;
+}
+
+.first-section {
+  background-color: #7541c8;
+  color: #cfcfcf;
+}
+
+.first-section span {
+  color: inherit;
+  opacity: .5;
+}
+
+.first-section p {
+  color: inherit;
+  opacity: .7;
+}
+
+.second-section {
+  background-color: #48556a;
+}
+
+.second-section span {
+  color: inherit;
+  opacity: .5;
+}
+
+.second-section p {
+  color: inherit;
+  opacity: .7;
+}
+
+.third-section {
+  background-color: white;
+}
+
+.third-section span {
+  color: inherit;
+  opacity: .5;
+}
+
+.third-section p {
+  color: inherit;
+  opacity: .7;
+}
+
+.fourth-section {
+  background-color: #19212e;
+  color: white;
+}
+
+.fourth-section span {
+  color: inherit;
+  opacity: .5;
+}
+
+.fourth-section p {
+  color: inherit;
+  opacity: .7;
+}
+
+.fifth-section {
+  background-color: white;
+}
+
+.fifth-section span {
+  color: inherit;
+  opacity: .5;
+}
+
+.fifth-section p {
+  color: inherit;
+  opacity: .7;
+}
+
+.attribution {
+  font-size: 11px;
+}
+
+@media (min-width: 700px) {
+  .container {
+    max-width: 1440px;
+    display: -ms-grid;
+    display: grid;
+    grid-template: "first-section first-section second-section fifth-section" auto "third-section fourth-section fourth-section fifth-section" auto /1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .first-section {
+    grid-area: first-section;
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  }
+  .second-section {
+    grid-area: second-section;
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  }
+  .third-section {
+    grid-area: third-section;
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  }
+  .fourth-section {
+    grid-area: fourth-section;
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  }
+  .fifth-section {
+    grid-area: fifth-section;
+    -webkit-transition: -webkit-transform 250ms ease-in-out;
+    transition: -webkit-transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
+    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  }
+  .first-section:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .second-section:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .third-section:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .fourth-section:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  .fifth-section:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=styles.css.map */

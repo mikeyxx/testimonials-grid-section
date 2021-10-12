@@ -1,0 +1,201 @@
+$Moderate-violet: hsl(263, 55%, 52%);
+$Very-dark-grayish-blue: hsl(217, 19%, 35%);
+$Very-dark-blackish-blue: hsl(219, 29%, 14%);
+$White: hsl(0, 0%, 100%);
+$Light-gray: hsl(0, 0%, 81%);
+$Light-grayish-blue: hsl(210, 46%, 95%);
+$paragraph-font: 13px;
+$header-font: 1rem;
+$padded-spaces: .7rem;
+
+// Global styles
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background: $Light-grayish-blue;
+}
+
+p {
+    font-size: $paragraph-font;
+}
+
+h2 {
+    font-size: $header-font;
+    padding-block-end: $padded-spaces;
+}
+
+figcaption {
+    font-size: 11.5px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.avatar {
+    border-radius: 2rem;
+}
+
+.container {
+    max-width: 375px;
+    margin: 2.8rem auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex: auto;
+    .profile {
+        display: flex;
+    }
+}
+
+.testimonial {
+    max-height: 100%;
+    max-width: 100%;
+    margin-block-end: 1.3rem;
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: .5rem;
+}
+
+.testimonial:last-of-type {
+    margin-block-end: 0;
+}
+
+.profile {
+    padding-block-end: $padded-spaces;
+}
+
+.details {
+    margin-inline-start: 1rem;
+}
+
+span {
+    font-size: 11px;
+}
+
+.first-section {
+    background-color: $Moderate-violet;
+    color: $Light-gray;
+    span {
+        color: inherit;
+        opacity: .5;
+    }
+    p {
+        color: inherit;
+        opacity: .7;
+    }
+}
+
+.second-section {
+    background-color: $Very-dark-grayish-blue;
+    span {
+        color: inherit;
+        opacity: .5;
+    }
+    p {
+        color: inherit;
+        opacity: .7;
+    }
+}
+
+.third-section {
+    background-color: $White;
+    span {
+        color: inherit;
+        opacity: .5;
+    }
+    p {
+        color: inherit;
+        opacity: .7;
+    }
+}
+
+.fourth-section {
+    background-color: $Very-dark-blackish-blue;
+    color: $White;
+    span {
+        color: inherit;
+        opacity: .5;
+    }
+    p {
+        color: inherit;
+        opacity: .7;
+    }
+}
+
+.fifth-section {
+    background-color: $White;
+    span {
+        color: inherit;
+        opacity: .5;
+    }
+    p {
+        color: inherit;
+        opacity: .7;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+}
+
+@media (min-width: 700px) {
+    .container {
+        max-width: 1440px;
+        display: grid;
+        // grid-template-columns: repeat(4, minmax(200px, 1fr));
+        grid-template:
+        "first-section first-section second-section fifth-section" auto
+        "third-section fourth-section fourth-section fifth-section" auto
+        /1fr 1fr 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .first-section {
+        grid-area: first-section;
+        transition: transform 250ms ease-in-out;
+    }
+    .second-section {
+        grid-area: second-section;
+        transition: transform 250ms ease-in-out;
+    }
+    .third-section {
+        grid-area: third-section;
+        transition: transform 250ms ease-in-out;
+    }
+    .fourth-section {
+        grid-area: fourth-section;
+        transition: transform 250ms ease-in-out;
+    }
+    .fifth-section {
+        grid-area: fifth-section;
+        transition: transform 250ms ease-in-out;
+    }
+    .first-section:hover {
+        transform: scale(1.1);
+    }
+    .second-section:hover {
+        transform: scale(1.1);
+    }
+    .third-section:hover {
+        transform: scale(1.1);
+    }
+    .fourth-section:hover {
+        transform: scale(1.1);
+    }
+    .fifth-section:hover {
+        transform: scale(1.1);
+    }
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
