@@ -165,10 +165,12 @@ span {
 
 @media (min-width: 700px) {
   .container {
-    max-width: 1440px;
+    max-width: 1200px;
     display: -ms-grid;
     display: grid;
-    grid-template: "first-section first-section second-section fifth-section" auto "third-section fourth-section fourth-section fifth-section" auto /1fr 1fr 1fr 1fr;
+    grid-template: "first-section first-section second-section fifth-section" auto
+ "third-section fourth-section fourth-section fifth-section" auto
+ /1fr 1fr 1fr 1fr;
     gap: 1.5rem;
   }
   .first-section {
