@@ -98,6 +98,7 @@ span {
 
 .second-section {
     background-color: $Very-dark-grayish-blue;
+    color: white;
     span {
         color: inherit;
         opacity: .5;
@@ -151,7 +152,7 @@ span {
 
 @media (min-width: 700px) {
     .container {
-        max-width: 1440px;
+        max-width: 1200px;
         display: grid;
         // grid-template-columns: repeat(4, minmax(200px, 1fr));
         grid-template:
