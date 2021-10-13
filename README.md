@@ -10,6 +10,10 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
   - [Continued development](#continued-development)
 
 
+![Screenshot (188)_LI](https://user-images.githubusercontent.com/79487718/137119015-79915e5e-241f-4ae4-b8ea-dd81c9d7426e.jpg)
+
+
+
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
