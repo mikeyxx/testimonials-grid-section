@@ -200,58 +200,18 @@ h4 {
   }
   .first-section {
     grid-area: first-section;
-    -webkit-transition: -webkit-transform 250ms ease-in-out;
-    transition: -webkit-transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
   }
   .second-section {
     grid-area: second-section;
-    -webkit-transition: -webkit-transform 250ms ease-in-out;
-    transition: -webkit-transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
   }
   .third-section {
     grid-area: third-section;
-    -webkit-transition: -webkit-transform 250ms ease-in-out;
-    transition: -webkit-transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
   }
   .fourth-section {
     grid-area: fourth-section;
-    -webkit-transition: -webkit-transform 250ms ease-in-out;
-    transition: -webkit-transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
   }
   .fifth-section {
     grid-area: fifth-section;
-    -webkit-transition: -webkit-transform 250ms ease-in-out;
-    transition: -webkit-transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  }
-  .first-section:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  .second-section:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  .third-section:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  .fourth-section:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  .fifth-section:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
   }
 }
 
