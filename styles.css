@@ -145,6 +145,11 @@ h4 {
   opacity: .7;
 }
 
+.third-section h2 {
+  color: inherit;
+  opacity: .8;
+}
+
 .fourth-section {
   background-color: #19212e;
   color: white;
@@ -172,6 +177,11 @@ h4 {
 .fifth-section p {
   color: inherit;
   opacity: .7;
+}
+
+.fifth-section h2 {
+  color: inherit;
+  opacity: .8;
 }
 
 .attribution {
