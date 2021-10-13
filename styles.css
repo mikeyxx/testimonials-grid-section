@@ -24,7 +24,7 @@ h2 {
           padding-block-end: 0.7rem;
 }
 
-.details h3:first-of-type {
+.details h3 {
     font-size: 0.9rem;
 }
 
@@ -83,7 +83,7 @@ img {
           margin-inline-start: 1rem;
 }
 
-h3 {
+h4 {
   font-size: 11px;
 }
 
