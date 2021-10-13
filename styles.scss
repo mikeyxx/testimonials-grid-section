@@ -186,39 +186,20 @@ h4 {
 
     .first-section {
         grid-area: first-section;
-        transition: transform 250ms ease-in-out;
     }
     .second-section {
         grid-area: second-section;
-        transition: transform 250ms ease-in-out;
     }
     .third-section {
         grid-area: third-section;
-        transition: transform 250ms ease-in-out;
     }
     .fourth-section {
         grid-area: fourth-section;
-        transition: transform 250ms ease-in-out;
     }
     .fifth-section {
         grid-area: fifth-section;
-        transition: transform 250ms ease-in-out;
     }
-    .first-section:hover {
-        transform: scale(1.1);
-    }
-    .second-section:hover {
-        transform: scale(1.1);
-    }
-    .third-section:hover {
-        transform: scale(1.1);
-    }
-    .fourth-section:hover {
-        transform: scale(1.1);
-    }
-    .fifth-section:hover {
-        transform: scale(1.1);
-    }
+    
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
