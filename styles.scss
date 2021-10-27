@@ -69,8 +69,8 @@ h2 {
 }
 
 .container {
-    width: 85vw;
-    margin: 2rem auto;
+    width: 75vw;
+    margin: 5rem auto;
     display: flex;
     flex-flow: column wrap;
     flex: auto;
@@ -210,7 +210,7 @@ h2 {
 @media (min-width: 769px) {
     .container {
         display: grid;
-        gap: 1.5rem;
+        gap: 1.2rem;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto;
         grid-template-areas: 
@@ -223,7 +223,7 @@ h2 {
 @media (min-width: 1024px) {
     .container {
         display: grid;
-        gap: 2rem;
+        gap: 1.5rem;
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas:
         "first-section first-section second-section fifth-section"
