@@ -61,8 +61,8 @@ h2 {
 }
 
 .container {
-  width: 85vw;
-  margin: 2rem auto;
+  width: 75vw;
+  margin: 5rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,7 +230,7 @@ h2 {
   .container {
     display: -ms-grid;
     display: grid;
-    gap: 1.5rem;
+    gap: 1.2rem;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: auto auto;
@@ -245,7 +245,7 @@ h2 {
   .container {
     display: -ms-grid;
     display: grid;
-    gap: 2rem;
+    gap: 1.5rem;
     -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
         grid-template-areas: "first-section first-section second-section fifth-section"
